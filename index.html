@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="contact-section">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name">
+      <small class="error" id="nameError"></small>
+
+      <input type="email" id="email" placeholder="Your Email">
+      <small class="error" id="emailError"></small>
+
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <small class="error" id="messageError"></small>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p id="successMsg"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

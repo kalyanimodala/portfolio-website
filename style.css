@@ -1,0 +1,60 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-section {
+  background: #ffffff;
+  padding: 2.5rem;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  margin-top: 1.2rem;
+  padding: 0.7rem;
+  width: 100%;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  text-align: left;
+  display: block;
+}
+
+#successMsg {
+  color: green;
+  margin-top: 1rem;
+  font-weight: 600;
+}
