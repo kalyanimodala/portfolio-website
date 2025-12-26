@@ -17,7 +17,7 @@ A responsive personal portfolio built using HTML, CSS, and JavaScript.
 - Git & GitHub
 
 ## 🌍 Live Demo
-👉 https://your-site-name.netlify.app
+👉 https://kalyanimodala-portfolio.netlify.app/
 
 ## 📂 How to Run Locally
 1. Clone the repository
